@@ -1,15 +1,15 @@
-# Credit Risk Prediction with Random Forest
+Credit Risk Prediction with Random Forest
 
 This project predicts whether a bank customer will default on a loan using the German Credit Data from the UCI Machine Learning Repository.  
 It includes a full machine learning pipeline with data preprocessing, model training, evaluation, and interpretation.
 
-## Dataset
+Dataset
 - Source: UCI ML Repository – German Credit Data (1000 samples)
 - Binary classification:
   - 1 = Good credit
   - 0 = Bad credit
 
-## Workflow
+Workflow
 1. Load and explore the dataset using `ucimlrepo`
 2. Rename columns for clarity
 3. Apply one-hot encoding to categorical features
@@ -23,12 +23,12 @@ It includes a full machine learning pipeline with data preprocessing, model trai
    - ROC Curve and AUC Score
 8. Plot the most important features
 
-## Results
+Results
 - AUC score: approximately 0.79
 - Accuracy: approximately 73%
 - Most important features: credit amount, duration in months, checking account status
 
-## Tools and Libraries
+Tools and Libraries
 - Python, pandas, scikit-learn, seaborn, matplotlib
 - ucimlrepo (for loading the dataset)
 
